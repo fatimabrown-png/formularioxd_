@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Registro de productos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Registro de productos en JS</h2>
+        <form id="formProducto">
+            <label>Nombre del producto</label>
+            <input type="text" id="nombre"required>
+
+
+            <label>Descripción del producto</label>
+            <textarea id="descripcion" required></textarea>
+
+
+             <label>Precios</label>
+             <input type="number" id="precio" required>
+
+
+             <label>Imagen(opcional)</label>
+            <input type="file" id="imagen" accept="image/*">
+
+
+            <button type="submit">Guardar y ver reporte</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
